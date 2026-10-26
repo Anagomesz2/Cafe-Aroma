@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif, Arial;
+    background-color:#F9F6F0;
+    color:#382413;
+}
+
+#cabecalho-principal {
+    background-color: #382413;
+    color:#F9F6F0;
+    justify-content:space-around;
+    align-items: center;
+    padding: 15px;
+    display: flex;
+}
+
+.menu a{
+    color:#F9F6F0;
+    text-decoration: none;
+    margin: 10px;
+    align-items: center;
+}
+
+#apresentacao {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 100px;
+}
+
+#apresentacao h1 {
+    font-size: 45px;
+}
+
+#apresentacao p {
+    margin-top: 15px;
+}
+
+#botao-principal {
+    color: white;
+    text-decoration: none;
+}
