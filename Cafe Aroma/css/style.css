@@ -17,6 +17,7 @@ body {
     align-items: center;
     padding: 15px;
     display: flex;
+    margin-bottom:40px;
 }
 
 .menu a{
@@ -28,15 +29,12 @@ body {
 
 #apresentacao {
     display: flex;
-    justify-content:space-around;
-    align-items: center;
-    display: flex;
-    margin-top: 35px;
-    margin-bottom: 100px;
+    flex-direction: column;
+    margin: 70px;
 }
 
 #apresentacao h1 {
-    font-size: 45px;
+    font-size: 48px;
 }
 
 #apresentacao p {
@@ -44,6 +42,14 @@ body {
 }
 
 #botao-principal {
+    margin-top: 25px; 
+}
+
+#botao-principal a {
     color: white;
+    background-color: #D97724;
     text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
 }
